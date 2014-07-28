@@ -126,10 +126,12 @@ h2 {
   color: #7f8e95;
   font-weight: 400;
   margin-top: 40px;
+  margin-right: 15px;
   text-align: right;
 }
 p {
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 a, a:visited {
   color: #eb806c;
@@ -161,7 +163,7 @@ section {
   border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
   max-width: 200px;
   height: 50px; line-height: 50px;
-  margin: 40px auto;
+  margin: 20px auto;
   font-size: 20px;
   font-weight: 400;
   text-align: center; text-decoration: none; text-transform: uppercase;
