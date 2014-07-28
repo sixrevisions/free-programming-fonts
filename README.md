@@ -19,4 +19,4 @@ A demonstration of beautiful fonts for people who love to code
 
 ## Notes
 - `@font-face` files prepared by Font Squirrel's [Webfont Generator](http://www.fontsquirrel.com/tools/webfont-generator)
-- For details about the fonts [tead this article on Six Revisions](http://sixrevisions.com/lists/free-programming-fonts/)
+- For details about the fonts [read this article on Six Revisions](http://sixrevisions.com/lists/free-programming-fonts/)
