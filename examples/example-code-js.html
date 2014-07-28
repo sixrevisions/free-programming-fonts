@@ -1,0 +1,18 @@
+<span class="ckeyword">var</span> characterlogs = <span class="ckeyword">function</span> () {
+  <span class="ckeyword">var</span> i = <span class="cint">1</span>, l = <span class="cint">1</span>, O = <span class="cint">0</span>, o = <span class="cint">0</span>,
+      backtick = <span class="cstring">'`'</span>,
+      apostrophe = <span class="cstring">"'"</span>,
+      twoapostrophes = <span class="cstring">"''"</span>,
+      doublequote = <span class="cstring">'"'</span>;
+  <span class="ccomment">// will always evaluate to true</span>
+  <span class="ckeyword">if</span>(i == l || l == <span class="cint">1</span>) {
+    <span class="ccomment">// lowercase i vs. lowercase l vs. one (1) vs. vertical bar (|)</span>
+    <span class="ckeyword">console</span>.log(<span class="cstring">'Log 1: il1|'</span>);
+    <span class="ccomment">// uppercase O vs. zero (0) vs. lowercase o</span>
+    <span class="ckeyword">console</span>.log(<span class="cstring">'Log 2: O0o'</span>);
+    <span class="ccomment">// backtick (`) vs. apostrophe(')</span>
+    <span class="ckeyword">console</span>.log(<span class="cstring">'Log 3: '</span> + backtick + apostrophe);
+    <span class="ccomment">// two apostrophes ('') vs. a double-quotation mark (")</span>
+    <span class="ckeyword">console</span>.log(<span class="cstring">'Log 4: '</span> + twoapostrophes + doublequote);
+  }
+};

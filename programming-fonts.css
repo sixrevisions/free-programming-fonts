@@ -1,0 +1,213 @@
+/* FONT FACE */
+@font-face {
+  font-family: 'anonymous-pro';
+  src: url('fonts/web/anonymous-pro.eot');
+  src: url('fonts/web/anonymous-pro.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/anonymous-pro.woff') format('woff'),
+    url('fonts/web/anonymous-pro.ttf') format('truetype'),
+    url('fonts/web/anonymous-pro.svg#anonymous_proregular') format('svg');
+}
+@font-face {
+  font-family: 'cousine';
+  src: url('fonts/web/cousine-regular.eot');
+  src: url('fonts/web/cousine-regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/cousine-regular.woff') format('woff'),
+    url('fonts/web/cousine-regular.ttf') format('truetype'),
+    url('fonts/web/cousine-regular.svg#cousineregular') format('svg');
+}
+@font-face {
+  font-family: 'dejavu-sans-mono';
+  src: url('fonts/web/deja-vu-sans-mono.eot');
+  src: url('fonts/web/deja-vu-sans-mono.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/deja-vu-sans-mono.woff') format('woff'),
+    url('fonts/web/deja-vu-sans-mono.ttf') format('truetype'),
+    url('fonts/web/deja-vu-sans-mono.svg#dejavu_sans_monobook') format('svg');
+}
+@font-face {
+  font-family: 'droid-sans-mono';
+  src: url('fonts/web/droid-sans-mono.eot');
+  src: url('fonts/web/droid-sans-mono.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/droid-sans-mono.woff') format('woff'),
+    url('fonts/web/droid-sans-mono.ttf') format('truetype'),
+    url('fonts/web/droid-sans-mono.svg#droid_sans_monoregular') format('svg');
+}
+@font-face {
+  font-family: 'fira-mono';
+  src: url('fonts/web/fira-mono-regular.eot');
+  src: url('fonts/web/fira-mono-regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/fira-mono-regular.woff') format('woff'),
+    url('fonts/web/fira-mono-regular.ttf') format('truetype'),
+    url('fonts/web/fira-mono-regular.svg#fira_monoregular') format('svg');
+}
+@font-face {
+  font-family: 'hermit';
+  src: url('fonts/web/fonts/web/hermit-light.eot');
+  src: url('fonts/web/hermit-light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/hermit-light.woff') format('woff'),
+    url('fonts/web/hermit-light.ttf') format('truetype'),
+    url('fonts/web/hermit-light.svg#hermitlight') format('svg');
+}
+@font-face {
+  font-family: 'inconsolata';
+  src: url('fonts/web/inconsolata.eot');
+  src: url('fonts/web/inconsolata.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/inconsolata.woff') format('woff'),
+    url('fonts/web/inconsolata.ttf') format('truetype'),
+    url('fonts/web/inconsolata.svg#inconsolatamedium') format('svg');
+}
+@font-face {
+  font-family: 'oxygen-mono';
+  src: url('fonts/web/oxygen-mono-regular.eot');
+  src: url('fonts/web/oxygen-mono-regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/oxygen-mono-regular.woff') format('woff'),
+    url('fonts/web/oxygen-mono-regular.ttf') format('truetype'),
+    url('fonts/web/oxygen-mono-regular.svg#oxygen_monoregular') format('svg');
+}
+@font-face {
+  font-family: 'pt-mono';
+  src: url('fonts/web/pt-mono-regular.eot');
+  src: url('fonts/web/pt-mono-regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/pt-mono-regular.woff') format('woff'),
+    url('fonts/web/pt-mono-regular.ttf') format('truetype'),
+    url('fonts/web/pt-mono-regular.svg#pt_monoregular') format('svg');
+}
+@font-face {
+  font-family: 'source-code-pro';
+  src: url('fonts/web/source-code-pro-regular.eot');
+  src: url('fonts/web/source-code-pro-regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/web/source-code-pro-regular.woff') format('woff'),
+    url('fonts/web/source-code-pro-regular.ttf') format('truetype'),
+    url('fonts/web/source-code-pro-regular.svg#source_code_proregular') format('svg');
+}
+
+/* RESET */
+html, body, div, pre, h1, h2, p, section, a { margin: 0; padding: 0; border: 0; font-size: 100%; }
+a { outline: none; }
+
+/* FONT CLASSES */
+.font-anonymous-pro    { font-family: 'anonymous-pro'; }
+.font-cousine          { font-family: 'cousine'; }
+.font-dejavu-sans-mono { font-family: 'dejavu-sans-mono'; }
+.font-droid-sans-mono  { font-family: 'droid-sans-mono'; }
+.font-fira-mono        { font-family: 'fira-mono'; }
+.font-hermit           { font-family: 'hermit'; }
+.font-inconsolata      { font-family: 'inconsolata'; }
+.font-oxygen-mono      { font-family: 'oxygen-mono'; }
+.font-pt-mono          { font-family: 'pt-mono'; }
+.font-source-code-pro  { font-family: 'source-code-pro'; }
+
+/* BASIC */
+body {
+  font:300 18px/23px 'Ek Mukta', sans-serif;
+  background-color: #ffffff;
+  color: #7d8d94;
+  text-align: center;
+}
+pre {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap;    
+  word-wrap: break-word;
+  text-align: left;
+  background-color: #f6f8f8;
+  padding: 15px;
+}
+h1 {
+  font-size: 50px;
+  line-height: 60px;
+  color: #808589;
+  font-weight: 300;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+  color: #7f8e95;
+  font-weight: 400;
+  margin-top: 40px;
+  text-align: right;
+}
+p {
+  margin-bottom: 20px;
+}
+a, a:visited {
+  color: #eb806c;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #d17766;
+  transition: color 0.4s;
+}
+
+/* LAYOUT */
+.container {
+  position: relative;
+  width: 96%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  display: inline;
+}
+
+/* SPECIAL CLASSES */
+.button {
+  display: block;
+  border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+  max-width: 200px;
+  height: 50px; line-height: 50px;
+  margin: 40px auto;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center; text-decoration: none; text-transform: uppercase;
+  color: #ffffff;
+  background-color: #eb806c;
+  transition: background-color 0.2s;
+}
+.button:hover {
+  color: #ffffff;
+  background-color: #d17766;
+  transition: background-color 0.4s;
+}
+.button:visited {
+  color: #ffffff;
+}
+
+/* CODE STYLE */
+.ckeyword { color: #096eb6; }
+.cint { color: #049904; }
+.cstring { color: #f2b66f;  }
+.ccomment { color: #a1a1a1; }
+
+/* MEDIA QUERIES */
+@media (max-width: 960px) {
+  .container {
+    width: 100%;
+    margin-right: 0; margin-left: 0;
+  }
+  section {
+    width: 100%;
+    margin-right: 0; margin-left:0; 
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+    letter-spacing: normal; 
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #7f8e95;
+  }
+  pre {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
