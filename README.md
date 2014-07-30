@@ -15,8 +15,11 @@ A demonstration of beautiful fonts for people who love to code
 7. [Inconsolata](http://sixrevisions.com/lists/free-programming-fonts/#inconsolata-section)
 8. [Oxygen Mono](http://sixrevisions.com/lists/free-programming-fonts/#oxygen-mono-section)
 9. [PT Mono](http://sixrevisions.com/lists/free-programming-fonts/#pt-mono-section)
-10. [Source Code Pro](http://sixrevisions.com/lists/free-programming-fonts/#source-code-pro-sectio)
+10. [Source Code Pro](http://sixrevisions.com/lists/free-programming-fonts/#source-code-pro-section)
+
+## To-do
+- Include M+, Luculent and Ubuntu Mono in the demo [07-30-2014]
 
 ## Notes
 - `@font-face` files prepared by Font Squirrel's [Webfont Generator](http://www.fontsquirrel.com/tools/webfont-generator)
-- For details about the fonts [read this article on Six Revisions](http://sixrevisions.com/lists/free-programming-fonts/)
+- For more info about the fonts [read this article on Six Revisions](http://sixrevisions.com/lists/free-programming-fonts/)
