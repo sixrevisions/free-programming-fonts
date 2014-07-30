@@ -40,12 +40,14 @@
     url('fonts/web/fira-mono-regular.svg#fira_monoregular') format('svg');
 }
 @font-face {
-  font-family: 'hermit';
-  src: url('fonts/web/fonts/web/hermit-light.eot');
-  src: url('fonts/web/hermit-light.eot?#iefix') format('embedded-opentype'),
-    url('fonts/web/hermit-light.woff') format('woff'),
-    url('fonts/web/hermit-light.ttf') format('truetype'),
-    url('fonts/web/hermit-light.svg#hermitlight') format('svg');
+    font-family: 'hermit';
+    src: url('fonts/web/hermit-medium-webfont.eot');
+    src: url('fonts/web/hermit-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/web/hermit-medium-webfont.woff') format('woff'),
+         url('fonts/web/hermit-medium-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 @font-face {
   font-family: 'inconsolata';
@@ -110,6 +112,7 @@ pre {
   white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap;    
   word-wrap: break-word;
   text-align: left;
+  color: #000000;
   background-color: #f6f8f8;
   padding: 15px;
 }
@@ -183,8 +186,8 @@ section {
 /* CODE STYLE */
 .ckeyword { color: #096eb6; }
 .cint { color: #049904; }
-.cstring { color: #f2b66f;  }
-.ccomment { color: #a1a1a1; }
+.cstring { color: #d77d13;  }
+.ccomment { color: #707070; }
 
 /* MEDIA QUERIES */
 @media (max-width: 960px) {
@@ -209,7 +212,7 @@ section {
     color: #7f8e95;
   }
   pre {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 19px;
   }
 }
